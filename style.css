@@ -46,3 +46,87 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* ------------------ Styles ------------------ */
+body{
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+main{
+    padding: 15px;
+    display: flex;
+    background-color: #F3F5FC;
+    height: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+#to-encrypt-section{
+    display: block;
+    width: 70%;
+    text-align: center;
+}
+
+#logo-div{
+    float: left;
+}
+
+#png-logo{
+    height: 40px;
+}
+
+.tittles{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tittles h2{
+    
+}
+
+#to-encrypt-div{
+    height: 80%;
+    margin: 15px 0px;
+}
+
+#to-encrypt-area{
+    width: 100%;
+    height: 100%;
+    border:none;
+}
+
+#encrypted-section{
+    display: block;
+    width: 30%;
+    text-align: center;
+}
+
+#encrypted-div{
+    height: 80%;
+    margin: 15px 0px;
+}
+
+img{
+    height: 100%;
+}
+
+
+button {
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    border: none;
+}
+
+button:nth-child(odd){
+    color: #F3F5FC;
+    background-color: #0A3871;
+}
+
+button:nth-child(even){
+    color: #0A3871;
+    background-color: #D8DFE8;
+}
