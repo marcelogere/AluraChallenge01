@@ -130,3 +130,40 @@ button:nth-child(even){
     color: #0A3871;
     background-color: #D8DFE8;
 }
+
+/* ------------------ Styles for Mobile Devices ------------------ */
+
+@media only screen and (max-width: 600px) {
+
+main{
+    display: block;
+}
+
+#logo-div{
+    float:none;
+    margin: 10px;
+}
+
+#to-encrypt-section{
+    width: 100%;
+}
+
+#encrypted-section{
+    width: 100%;
+    text-align: center;
+}
+
+#to-encrypt-area {
+    width: 90%;
+    height: 200px;
+}
+
+.buttons{
+    margin-bottom: 15px;
+}
+
+img {
+    height: 380px;
+}
+
+}
