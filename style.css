@@ -143,11 +143,12 @@ button:nth-child(even){
 
 @media only screen and (max-width: 600px) {
 
-main{
+body{
     display: block;
 }
 
 #logo-div{
+    height: 1.8rem;
     float:none;
     margin: 10px;
 }
@@ -161,6 +162,10 @@ main{
     text-align: center;
 }
 
+#encrypted-area{
+    height: 300px;
+}
+
 #to-encrypt-area {
     width: 90%;
     height: 200px;
@@ -168,10 +173,6 @@ main{
 
 .buttons{
     margin: 15px;
-}
-
-img {
-    height: 380px;
 }
 
 }
