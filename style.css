@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -48,18 +49,16 @@ table {
 }
 
 /* ------------------ Styles ------------------ */
-body{
+html{
     height: 100vh;
-    box-sizing: border-box;
 }
 
-main{
+body{
+    height: 100vh;
+    background-color: #F3F5FC;
     padding: 15px;
     display: flex;
-    background-color: #F3F5FC;
-    height: 100%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    box-sizing: border-box;
 }
 
 #to-encrypt-section{
@@ -69,14 +68,17 @@ main{
 }
 
 #logo-div{
+    height: 3rem;
     float: left;
 }
 
-#png-logo{
+#text-logo{
     height: 40px;
 }
 
 .tittles{
+    color: #0A3871;
+    font-weight: bold;
     height: 50px;
     display: flex;
     align-items: center;
@@ -84,7 +86,7 @@ main{
 }
 
 #to-encrypt-div{
-    height: 80%;
+    height: 75%;
     margin: 15px 0px;
 }
 
@@ -101,8 +103,17 @@ main{
 }
 
 #encrypted-div{
-    height: 80%;
+    height: 75%;
     margin: 15px 0px;
+}
+
+#encrypted-area{
+    background: linear-gradient(137deg, #004AAD, #00C4CC);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 100%;
+    border: none;
 }
 
 img{
@@ -115,11 +126,12 @@ button {
     width: 100px;
     height: 30px;
     border: none;
+    margin: 15px;
 }
 
 button:nth-child(odd){
     color: #F3F5FC;
-    background-color: #0A3871;
+    background: linear-gradient(137deg, #520ac7, #00C4CC);
 }
 
 button:nth-child(even){
