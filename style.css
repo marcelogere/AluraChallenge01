@@ -61,6 +61,10 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+textarea{
+    padding: 15px
+}
+
 #to-encrypt-section{
     display: block;
     width: 70%;
